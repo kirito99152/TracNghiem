@@ -115,7 +115,7 @@ namespace TracNghiem.Controllers
                 var user = new TbNguoiDung(){
                     TenDangNhap = model.username,
                     MatKhau = model.password,
-                    IdVaiTro = 2,
+                    IdVaiTro = 1,
                 };
                 _context.TbNguoiDungs.Add(user);
                 await _context.SaveChangesAsync();
